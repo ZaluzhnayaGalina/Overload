@@ -15,6 +15,9 @@ public:
     explicit math_model(QWidget *parent = 0);
     ~math_model();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::math_model *ui;
 };
